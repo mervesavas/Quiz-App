@@ -37,7 +37,7 @@ const AnswerSheet: React.FC<Props> = ({ answers, data }) => {
               </tbody>
             </table>
           </div>
-          <button className="w-1/6 px-2 py-2 bg-gray-500 text-white rounded hover:bg-gray-600 transition ease-in-out duration-150 mt-4" onClick={() => router.back()}>Back</button>
+          <button className="w-1/6 px-2 py-2 bg-black text-white rounded hover:bg-gray-800 transition ease-in-out duration-150 mt-4" onClick={() => router.back()}>Back</button>
         </div>
       </div>
     </div>
